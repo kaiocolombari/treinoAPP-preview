@@ -1,0 +1,21 @@
+export type ExamData = {
+  nomeCompleto: string;
+  genero: string;
+  idade: string;
+  etnia: string;
+  massa: string;
+  estatura: string;
+  femur: string;
+  tibia: string;
+  una: string;
+  umero: string;
+  fcRepouso: string;
+  fcMaxima: string;
+  fcReserva: string;
+  glicose: string;
+  triglicerideos: string;
+  ldl: string;
+  hdl: string;
+  sistolica: string;
+  diastolica: string;
+};

@@ -1,0 +1,16 @@
+import { type RouteConfig, index, route } from "@react-router/dev/routes";
+
+export default [
+  index("src/screen/painel.tsx"),
+  route("avaliacao2", "src/screen/avaliacao2.tsx"),
+  route("avaliacao1", "src/screen/avaliacao1.tsx"),
+  route("comparacao", "src/screen/comparacao.tsx"),
+  route("prescricao", "src/screen/prescricao.tsx"),
+  route("periodizacao", "src/screen/periodizacao.tsx"),
+  route("volume", "src/screen/volume.tsx"),
+  route("intensidade", "src/screen/intensidade.tsx"),
+  route("salvar", "src/screen/salvarTEMP.tsx"),
+  route("login", "src/screen/login.tsx"),
+  route("register", "src/screen/register.tsx")
+
+] satisfies RouteConfig;
